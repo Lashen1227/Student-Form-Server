@@ -10,7 +10,6 @@ The **Student Form** project is a web-based application built using JavaEE, Apac
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -81,13 +80,3 @@ The **Student Form** project is a web-based application built using JavaEE, Apac
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: MySQL
 - **API Testing**: Postman
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
-3. Commit your Changes (`git commit -m 'Add some feature'`)
-4. Push to the Branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
