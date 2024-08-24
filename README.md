@@ -30,6 +30,7 @@ The **Student Form** project is a web-based application built using JavaEE, Apac
 - Apache Tomcat Server
 - MySQL Server
 - Postman (for API testing)
+- CORS Unblock Chrome Extension
 
 ### Setup Instructions
 
@@ -54,9 +55,10 @@ The **Student Form** project is a web-based application built using JavaEE, Apac
    - Ensure the JDBC driver is added to your project’s classpath.
    - Update the database connection settings in the `Server` code to match your MySQL configuration.
 
-6. **Run the Project**:
+7. **Run the Project**:
    - Deploy the project on Apache Tomcat server.
    - Open `http://localhost:8080/students` in your browser.
+   - Ensure the CORS Unblock extension is enabled to allow interactions between the frontend and backend.
 
 ## Usage
 
