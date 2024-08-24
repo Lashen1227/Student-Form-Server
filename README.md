@@ -56,7 +56,7 @@ The **Student Form** project is a web-based application built using JavaEE, Apac
 
 6. **Run the Project**:
    - Deploy the project on Apache Tomcat server.
-   - Open `http://localhost:8080/Student-Form` in your browser.
+   - Open `http://localhost:8080/students` in your browser.
 
 ## Usage
 
