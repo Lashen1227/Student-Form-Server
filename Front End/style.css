@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1b26;
+    color: #c0caf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #24283b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    max-width: 1024px;
+    width: 100%;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.9rem;
+    color: #7aa2f7;
+}
+
+.student-form,
+.student-table {
+    width: 100%;
+}
+
+.student-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #a9b1d6;
+}
+
+input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #3b4261;
+    border-radius: 5px;
+    background-color: #2e3440;
+    color: #c0caf5;
+    font-size: 0.97rem;
+}
+
+input::placeholder {
+    color: #565f89;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 48%;
+    padding: 0.6rem;
+    color: #1a1b26;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.97rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnSave {
+    background-color: #7aa2f7;
+}
+
+#btnSave:hover {
+    background-color: #2ac3de;
+}
+
+#btnClear {
+    background-color: #ff8800;
+}
+
+#btnClear:hover {
+    background-color: #ff5722;
+}
+
+#btnUpdate {
+    background-color: #bb9af7;
+}
+
+#btnUpdate:hover {
+    background-color: #9d7cd8;
+}
+
+#btnDelete {
+    background-color: #f7768e;
+}
+
+#btnDelete:hover {
+    background-color: #ff5370;
+}
+
+.student-table {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2e3440;
+    color: #c0caf5;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+table thead {
+    background-color: #3b4261;
+}
+
+th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #3b4261;
+}
+
+th {
+    color: #7aa2f7;
+    font-weight: 500;
+}
+
+tr:hover {
+    background-color: #3b4261;
+}

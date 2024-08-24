@@ -1,0 +1,15 @@
+// Create Database
+CREATE DATABASE student_form_javaee;
+
+// Use the database
+use student_form_javaee;
+
+// Create tables
+CREATE TABLE IF NOT EXISTS student(
+	id VARCHAR(5) PRIMARY KEY,
+	name VARCHAR(45),
+	address TEXT,
+	gender ENUM('male','female','other'),
+	contact_number VARCHAR(12),
+	age TINYINT(127)
+);
