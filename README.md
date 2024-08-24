@@ -4,13 +4,6 @@
 
 The **Student Form** project is a web-based application built using JavaEE, Apache Tomcat, and MySQL. It provides a simple frontend interface for managing student data through a form. This project supports full CRUD  operations on student records stored in a MySQL database, with data handling through JDBC. Additionally, APIs are managed using Postman for testing and interaction.
 
-## Table of Contents
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation and Setup](#installation-and-setup)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-
 ## Features
 
 - **Add Student**: Submit a form to add a new student to the database.
